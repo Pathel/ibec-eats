@@ -1,4 +1,4 @@
-/* Various resets and normalizations ... */
+/* Any resets and normalizations needed... */
 body {
     margin: 0;
 }
@@ -6,6 +6,7 @@ body {
 /*
   Design-specific styles begin here.  This is a minimalistic approach using vanilla CSS and no frameworks.
   Some font/size/weight values might not be exact since I don't have a PSD to check actual text data.
+  Mobile-first, of course.  ;)
 */
 header {
     font-family: 'Lato', sans-serif;
@@ -55,7 +56,7 @@ header h3 {
 
 
 /*
-    Starting at 768px, adopt a tablet-and-desktop usable layout.  There is only two columns with increasingly empty space
+    Starting at 600px, adopt a big-phones/tablet/desktop usable layout.  There is only two columns with increasingly empty space
     between them as one scales up, so no need for a multi-column grid systems with offsets and such.
  */
 
