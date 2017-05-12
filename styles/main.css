@@ -28,6 +28,29 @@ input#searchInput {
     display: block;
 }
 
+#searchInput:before {
+    content: "\f087";
+    font-family: FontAwesome, sans-serif;
+    font-size: 400px;
+    color: lightblue;
+    z-index: 9999;
+    display: block;
+}
+
+.form-wrap {
+    position: relative;
+}
+
+#searchButton {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    color: #81cc33;
+    font-size: 23px;
+    border: none;
+    background-color: transparent;
+}
+
 header .tablet-left {
     margin-bottom: 10px;
 }
