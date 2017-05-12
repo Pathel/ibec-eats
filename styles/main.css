@@ -24,7 +24,6 @@ input#searchInput {
     border-radius: 5px;
     width: 270px;
     font-size: 17px;
-    margin: 0 auto;
     display: block;
 }
 
@@ -39,6 +38,8 @@ input#searchInput {
 
 .form-wrap {
     position: relative;
+    width: 270px;
+    margin: 0 auto;
 }
 
 #searchButton {
