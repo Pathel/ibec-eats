@@ -19,7 +19,7 @@ $google_api_key = "AIzaSyBx_PLephaGxpOZjWedxxDX9Esr7g0oHdg";
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/main-min.css">
     </head>
     <body>
         <header>
@@ -39,7 +39,7 @@ $google_api_key = "AIzaSyBx_PLephaGxpOZjWedxxDX9Esr7g0oHdg";
         <div class="page-outer-wrapper">
             <div id="map"></div>
         </div>
-        <script src="scripts/mapsetup.js"></script>
+        <script src="scripts/mapsetup-min.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=<?php echo $google_api_key; ?>&libraries=places&callback=initMap" async defer></script>
     </body>
 </html>
